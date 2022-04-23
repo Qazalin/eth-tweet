@@ -1,0 +1,26 @@
+{
+  "name": "eth-tweet",
+  "version": "1.0.0",
+  "description": "find twitter account based on ethereum identity",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qazalin/eth-tweet.git"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "qazal samani (@qazalin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qazalin/eth-tweet/issues"
+  },
+  "homepage": "https://github.com/Qazalin/eth-tweet#readme",
+  "dependencies": {
+    "ethers": "^5.6.4",
+    "node-fetch": "^3.2.3"
+  }
+}
