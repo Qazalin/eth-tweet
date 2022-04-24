@@ -2,7 +2,7 @@
  * @param str the csv-like string
  * @param delimiter the sepertator of the csv values, default is ","
  */
-export function csvToArray(str: string, delimiter = ",") {
+export function _csvToArray(str: string, delimiter = ",") {
     // slice from start of text to the first \n index
     // use split to create an array from string by delimiter
     // the headers in the csv file
