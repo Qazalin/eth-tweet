@@ -4,10 +4,6 @@ import { _getTwitterByENS } from "./getTwitterByEns"
 import { ethers } from "ethers"
 
 type Provider = ethers.providers.JsonRpcProvider
-const ethersProvider = new ethers.providers.JsonRpcProvider(
-    "124535"
-    // ie  "https://mainnet.infura.io/v3/12345"
-)
 
 export async function getTwitterHandles(
     provider: Provider,
