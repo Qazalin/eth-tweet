@@ -1,6 +1,6 @@
 {
     "name": "eth-tweet",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "find twitter account based on ethereum identity",
     "main": "src/index.ts",
     "scripts": {
