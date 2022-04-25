@@ -7,6 +7,14 @@ This doc is a step-by-step guide for Twitter analysis based on ENS names.
 **sample output**
 ![output](https://im2.ezgif.com/tmp/ezgif-2-d564d71ac2.gif)
 
+## Getting Started
+
+install this package in your javascript/typescript project
+
+```
+npm i --save eth-tweet
+```
+
 ## Steps
 
 There are 2 foundational steps for working with the ENS api and Twitter api at the same time.
@@ -63,7 +71,13 @@ const provider = new ethers.providers.JsonRpcProvider(
 
 -   [ ] Run this function with the following arguments
 
-The function is the only thing you need to call to get the data you need. Here’s the signature of the function:
+The function is the only thing you need to call to get the data you need.
+
+```tsx
+import { getTwitterHandles } from "eth-tweet"
+```
+
+Here’s the signature of the function:
 
 ```tsx
 async function getTwitterHandles(
@@ -73,10 +87,6 @@ async function getTwitterHandles(
     ensColName: string
 )
 ```
-
-you don’t need to worry about `async` if you don’t know the word though:)
-
-The most important part is what each of the parameters are:
 
 -   `provider`: The ethers.js provider we made in our first checkmark!
 -   `csv`: The csv **relative** path to your csv file you exported in [the first step](https://www.notion.so/Twitter-Analysis-b6d0591ef02c4b0d9d3755ae5d83437f)
