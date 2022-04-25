@@ -2,7 +2,11 @@
     "name": "eth-tweet",
     "version": "1.0.1",
     "description": "find twitter account based on ethereum identity",
-    "main": "src/index.ts",
+    "main": "dist/index.ts",
+    "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
     "scripts": {
         "test": "npm run test"
     },
